@@ -1,0 +1,74 @@
+.detail-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: fit-content;
+  height: auto;
+  background-color: #fff;
+}
+
+.image-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: fit-content;
+  border: 1px solid rgb(209, 149, 71);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-det {
+  width: 300px;
+}
+
+.actor-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.profieImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.actor-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.actor-name {
+  font-size: 15px;
+  color: rgb(209, 149, 71);
+  font-weight: 500;
+}
+
+.charcter {
+  font-size: 13px;
+  color: #b879a8;
+}
+
+.movie-name {
+  font-size: 20px;
+  color: #9e8722;
+}
+
+.desc{
+  font-size: 13px;
+  color: #b488a9;
+}

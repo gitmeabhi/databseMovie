@@ -1,0 +1,35 @@
+.movie-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #9e8722;
+  border-radius: 10px;
+  width: fit-content;
+
+  margin: 10px;
+}
+.movie-card-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.movie-title {
+  font-size: 20px;
+  color: #9e8722;
+  width: 150px;
+}
+.movie-rating {
+  font-size: 16px;
+  color: coral;
+}
+.view-btn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #9e8722;
+  color: #fff;
+}
